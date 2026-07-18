@@ -1,15 +1,11 @@
-# Python
 __pycache__/
 *.pyc
 *.pyo
 
-# Virtual environment
 venv/
 
-# Unsloth build cache (regenerates automatically)
 unsloth_compiled_cache/
 
-# Model artifacts (too large for git — reference via HF Hub instead)
 checkpoints/
 legalmind-lora-adapter/
 legalmind-merged/
@@ -20,26 +16,20 @@ legalmind-gguf/
 *.pt
 *.pth
 
-# Data (downloaded/cleaned datasets — regenerate via data_prep.py, don't commit)
 data/*.jsonl
 data/*.parquet
 data/*.csv
 
-# Secrets / environment variables
 .env
 *.env
 
-# Hugging Face / Kaggle cache
 .cache/
 *.log
 
-# Jupyter
 .ipynb_checkpoints/
 
-# OS-specific
 .DS_Store
 Thumbs.db
 
-# Editor/IDE
 .vscode/
 .idea/
