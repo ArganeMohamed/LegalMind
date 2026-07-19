@@ -1,0 +1,7 @@
+unsloth
+trl
+peft
+accelerate
+bitsandbytes
+datasets
+huggingface_hub
